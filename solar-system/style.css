@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('./images/stars.webp');
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    color: white;
+}
+.solar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem;
+}
+.pluto{
+    position: relative;
+    width: 900px;
+    height: 900px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 3.2rem;
+    animation: rotate 10s  linear infinite;
+   
+}
+.pluto1{
+    position: absolute;
+    top: -4%;
+    left: 46%;
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+   
+  
+   
+}
+.uranus{
+    position: relative;
+    display: block;
+    padding: 3.2rem;
+    width: 800px;
+    height: 800px;
+    border: 1px solid white;
+    border-radius: 50%;
+    
+    
+}
+.uranus1{
+    position: absolute;
+    top: 0%;
+    right: 30%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    
+  
+}
+.saturn{
+    position: relative;
+    padding: 3.2rem;
+    width: 700px;
+    height: 700px;
+    border: 1px solid white;
+    border-radius: 50%;
+    
+   
+}
+.saturn1{
+    position: absolute;
+    top: 1%;
+    right: 5%;
+    width: 24%;
+    height: 24%;
+    object-fit: cover;
+  
+}
+.jupiter{
+    position: relative;
+    padding: 3.2rem;
+    width: 600px;
+    height: 600px;
+    border: 1px solid white;
+    border-radius: 50%;
+   
+    
+}
+.jupiter1{
+    position: absolute;
+    right: -1.5%;
+    bottom: 65%;
+    width: 98px;
+    height: 98px;
+    object-fit: cover;
+  
+   
+
+}
+.mars{
+    position: relative;
+    padding: 3.2rem;
+    width: 500px;
+    height: 500px;
+    border: 1px solid  white;
+    border-radius: 50%;
+  
+}
+.mars1{
+    position: absolute;
+    bottom: 45%;
+    right: -9%;
+    width: 84px;
+    height: 84px;
+    object-fit: cover;
+   
+
+}
+.earth{
+    position: relative;
+    padding: 3.2rem;
+    width: 400px;
+    height: 400px;
+    border: 1px solid  white;
+    border-radius: 50%;
+   
+}
+.earth1{
+    position: absolute;
+    top: 1%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    
+
+}
+.venus{
+    position: relative;
+    padding: 3.2rem;
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 50%;
+   
+}
+.venus1{
+    position: absolute;
+    top: -2%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    
+}
+.mecury{
+    position: relative;
+    padding: 3.2rem;
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 50%; 
+   
+
+}
+.mecury1{
+    position: absolute;
+    top: -5%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  
+}
+.sun{
+    width: 100px;
+    height: 100px;
+    background: url('./images/sun.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: rotate 5s linear infinite ;
+
+}
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
